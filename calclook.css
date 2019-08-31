@@ -1,0 +1,55 @@
+/*Written by Mohan Goswami
+ Email : workwithmohan@gmail.com */
+button{
+width:80px;
+height:60px;
+margin-top:5px;
+background-color:rgba(25,25,25,0.5);
+font-size:20px;
+color:white;
+border:0px;
+cursor:pointer;border-radius:2px;
+}
+
+button:hover{
+
+opacity:0.3;
+}
+button:focus{
+outline:none;
+
+
+}
+input{font-size:20px;
+border-radius:0px;
+width:320px;
+padding:4.8px;border:0px;
+background-color:#9a9a9a;
+color:white;
+text-align:right;
+}
+input:focus{
+
+outline:none;
+}
+div{
+margin:auto;
+width:355px;
+padding:30px 15px 0px 15px;
+
+background:linear-gradient(45deg,#bd0d64,#3c0150);
+text-align:center;
+margin-top:200px;
+box-shadow:0px 0px 5px #3e3e3e;
+}
+
+span{
+	display:block;
+	padding:5px 0px;
+	color:rgba(255,255,255,0.5);
+	font-family:calibri;
+	border-top:0.5px solid rgba(255,255,255,0.5);
+	margin-top:10px;
+	
+	
+}
