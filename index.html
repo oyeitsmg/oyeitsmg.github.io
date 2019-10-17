@@ -1,26 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Basic Calculator</title>
-<script type="text/javascript" src="calc.js"></script>
-<link rel="stylesheet" type="text/css" href="calclook.css" />
-<style>
-<!--  Written by Monu Kumar Giri
- Email : mailtomonugiri@gmail.com -->
+  <head>
+    <title>Hye, its me Mohan Goswami</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="logic.js">
 
-</style>
-</head>
-<body>
+    </script>
+  </head>
+  <body>
+<main id="main">
 
+<section id="left-side-box">
 
-<div>
-<input type="text" id="calc" placeholder="0"/><br>
-<button onclick="enin('1')">1</button> <button onclick="enin('2')">2</button> <button onclick="enin('3')">3</button> <button onclick="enin('+')">+</button><br>
-<button onclick="enin('4')">4</button> <button onclick="enin('5')">5</button> <button onclick="enin('6')">6</button> <button onclick="enin('-')">-</button><br>
-<button onclick="enin('7')">7</button> <button onclick="enin('8')">8</button> <button onclick="enin('9')">9</button> <button onclick="enin('*')">x</button><br>
-<button onclick="clearb()">Clear</button> <button onclick="enin('0')">0</button> <button onclick="solve()">=</button> <button onclick="enin('/')">/</button><br>
-<span>Developed by Monu Kumar Giri</span>
+<div id="profile-image">
+<img src="images/profile.jpg" alt="profile image" />
 </div>
 
-</body>
+<div id="profile-title">
+<h1>Mohan Goswawmi</h1>
+<h2>Web Devloper</h2>
+</div>
+
+<div id="social">
+<img src="images/twitter_icon.png" alt="twitter" id="twitter" />
+<img src="images/facebook_icon.png" alt="facebook" id="facebook" />
+<img src="images/instagram_icon.png" alt="instagram" id="instagram" />
+</div>
+
+<div id="bio">
+<div id="bio"><img src="images/dob_icon.png" alt="dob" id="dob" />14 July, 1999</div>
+<div id="location"><img src="images/location_icon.png" alt="location" id="location" />New Delhi, India</div>
+<div id="github"><img src="images/github_icon.png" alt="github" id="github" />GitHub</div>
+</div>
+
+<div id="send-email">
+<button id="email">Email me</button>
+
+</div>
+</section>
+
+<section id="right-side-box">
+<div id="about">
+<h1>About me<h1><img src="images/menu_off.png" id="menubutton" onclick="menuon()" alt="menu"/><span id="bar"> </span>
+<p> i described my self as someone who's persistant,a quick learner and loves problem solving by using simple and scalable solutions.</p>
+<div id="menucon" style="display:none">
+<ul>
+  <li>Download Resume</li>
+  <li>See Projects</li>
+</div>
+</div>
+<h1 id="ltitle">What I'm doing ?</h1>
+<div id="cv">
+<div class="biobox"><div><img src="images/web_development_icon.png" alt="web"/></div><div><h1>Web Development</h1><h2>Able to do awesome designs using Html,Css & Javascript.</h2></div></div>
+
+<div class="biobox"><div><img src="images/html_email_icon.png" alt="email"/></div><div><h1>HTML Email Development</h1><h2>I can develope html emails for commerical purposes.</h2></div></div>
+
+<div class="biobox"><div><img src="images/responsive_design_icon.png" alt="responsive"/></div><div><h1>Responsive Designs</h1><h2>I can design super responsive and user friendly ui.</h2></div></div>
+
+<div class="biobox"><div><img src="images/support_icon.png" alt="support"/></div><div><h1>Strong Support</h1><h2>You can reach me anytime i am available 24X7 for help or support.</h2></div></div>
+
+</div>
+</section>
+
+
+</main>
+
+
+  </body>
 </html>
