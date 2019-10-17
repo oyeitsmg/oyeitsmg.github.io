@@ -220,11 +220,45 @@ li:hover{
 #menucon{overflow: hidden;
   transition: all .3s;
   position: absolute;
-margin-left: 440px;
+margin-left: 60%;
 margin-top: -20px;
   background-color:white;
   box-shadow:0px 0px 4px 1px gray;
 border-radius:10px;
 
 
+}
+
+
+@media screen and (max-width: 600px) {
+
+  #main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #cv{background-color:#EAECEE;
+
+    display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+
+  #left-side-box{overflow:hidden;
+    background-color: white;
+    border-radius: 10px;
+    width:95%;
+    height:auto;
+    box-shadow: 0px 0px 4px 0px gray;
+    margin: 15px;
+  }
+
+  #right-side-box{overflow:hidden;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width:600px;
+    height:auto;
+    box-shadow: 0px 0px 4px 0px gray;
+  }
 }
