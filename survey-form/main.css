@@ -1,0 +1,123 @@
+body{
+  background-color:#FCF3CF;
+}
+#title{
+  font-size:40px;
+  text-align:center;
+  font-family: 'Asap', sans-serif;
+  margin:0px;
+  margin-top:25px;
+  padding-bottom:5px;
+}
+
+#description{
+  margin:0px;
+  font-size:15px;
+  text-align:center;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-bottom:20px;
+}
+
+#main{
+  margin:auto;
+  left:0px;
+  right:0px;
+  width:80%;
+  background-color:white;
+ text-align:center;
+  overflow:hidden;
+  border-radius:10px;
+  box-shadow:0px 0px 3px 1px #D5D8DC;
+}
+
+#form-elements{
+  color:#34495E;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap:15px;
+   grid-row-gap:25px;
+}
+
+.labels{
+  text-align:right;
+  font-weight:bold;
+}
+
+.info{
+  text-align:left;
+}
+.center{
+  text-align:center;
+}
+
+#survey-form{width:80%;
+  font-family: 'Questrial', sans-serif;
+  margin:auto;
+  left:0px;
+  right:0px;
+  font-size:17px;
+}
+
+#name,#email,#number,#textarea,#dropdown{
+  width:95%;
+  padding:8px 5px;
+  font-size:15px;
+}
+.vcenter{
+  align-self:center;
+}
+
+#submit{
+  padding:10px 15px;
+  border-radius:10px;
+  font-size:20px;
+  border:0px;
+  background-color:#E74C3C;
+
+  margin:15px;
+  color:white;
+}
+
+#submit:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+
+#textarea{
+  height:100px;
+}
+
+@media screen and (max-width: 520px){
+  #main{
+    position:absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  background-color:white;
+ text-align:center;
+  overflow:hidden;
+  border-radius:0px;
+  box-shadow:0px 0px 0px 0px #D5D8DC;
+  }
+  #form-elements{
+  color:#34495E;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-column-gap:15px;
+   grid-row-gap:25px;
+}
+
+  .labels{
+    padding-top:10px;
+  text-align:left;
+  font-weight:bold;
+    border-top:0.5px solid #34495E;
+}
+#survey-form{width:90%;
+  font-family: 'Questrial', sans-serif;
+  margin:auto;
+  left:0px;
+  right:0px;
+  font-size:15px;
+}
+}

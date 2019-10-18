@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Asap|Barlow+Condensed|Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+  </head>
+ <body>
+   <main id="main">
+     <h1 id="title">Survey Form</h1>
+     <p id="description">We need your feedback to improve ourselves</p>
+
+     <form id="survey-form">
+       <section id="form-elements">
+       <div class="labels vcenter"><label for="name" id="name-label">* Name:</label></div>
+       <div class="info"><input type="text" id="name" name="name" placeholder="Enter your name" required></div>
+
+       <div class="labels vcenter"><label for="email" id="email-label">* Email:</label></div>
+       <div class="info"><input type="email" id="email" name="email" placeholder="Enter your email" required></div>
+
+       <div class="labels vcenter"><label for="number" id="number-label">* Age:</label></div>
+       <div class="info"><input type="number" id="number" name="age" min="8" max="30" placeholder="Enter your age" required></div>
+
+       <div class="labels"><label for="dropdown" id="dropdown-label">Which option best describes your current role?</label></div>
+       <div class="info"><select id="dropdown">
+         <option disabled>Select a option</option>
+         <option name="dropdown" value="student">Student</option>
+         <option name="dropdown" value="full time job">Full Time Job</option>
+         <option name="dropdown" value="full time learner">Full Time Learner</option>
+         <option name="dropdown" value="prefer not to say">Prefer not to say</option>
+         <option  name="dropdown" value="other">Other</option>
+         </select>
+         </div>
+
+       <div class="labels"><label id="radio-label">* How likely is that you would recommend freeCodeCamp to a friend?</label></div>
+       <div class="info"><input type="radio" name="rating" id="definitely" value="definitely"><label for="definitely">Definitely</label><br>
+         <input type="radio" name="rating" id="maybe" value="maybe"><label for="maybe">Maybe</label><br>
+         <input type="radio" name="rating" id="not-sure" value="not sure"><label for="not-sure">Not sure</label><br>
+         </div>
+
+       <div class="labels"><label id="checkbox-label">Things that should be improved in the future
+         (Check all that apply):</label></div>
+       <div class="info">
+         <input type="checkbox" value="front-end projects" id="checkbox-1" name="checkbox"><label for="checkbox-1">Front-end Projects</label><br>
+         <input type="checkbox" value="back-end projects" id="checkbox-2" name="checkbox"><label for="checkbox-2">Back-end Projects</label><br>
+         <input type="checkbox" value="data visualization" id="checkbox-3" name="checkbox"><label for="checkbox-3">Data Visualization</label><br>
+         <input type="checkbox" value="open source community" id="checkbox-4" name="checkbox"><label for="checkbox-4">Open Source Community</label><br>
+         <input type="checkbox" value="videos" id="checkbox-5" name="checkbox"><label for="checkbox-5">Videos</label><br>
+         <input type="checkbox" value="city meetups" id="checkbox-6" name="checkbox"><label for="checkbox-6">City Meetups</label><br>
+         <input type="checkbox" value="forum" id="checkbox-7" name="checkbox"><label for="checkbox-7">Forum</label><br>
+         <input type="checkbox" value="additional courses" id="checkbox-8" name="checkbox"><label for="checkbox-8">Additional Courses</label>
+       </div>
+
+       <div class="labels"><label for="textarea">Any Comments or Suggestions?</label></div>
+       <div class="info"><textarea id="textarea" name="comment" placeholder="comment here !!"></textarea></div>
+       </section>
+         <div class="center">
+           <input type="submit" value="Submit" id="submit" name="submit"></div>
+     </form>
+   </main>
+
+
+   
+ </body>
+</html>
